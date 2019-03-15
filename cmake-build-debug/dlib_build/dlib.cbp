@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="dlib" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\home\;CMake Files\..\..\home\wangkun\;CMake Files\..\..\home\wangkun\sources\;CMake Files\..\..\home\wangkun\sources\dlib-19.12\;CMake Files\..\..\home\wangkun\sources\dlib-19.12\dlib\;CMake Files\..\..\home\wangkun\sources\dlib-19.12\dlib\cmake_utils\;CMake Files\..\..\home\wangkun\sources\dlib-19.12\dlib\cmake_utils\test_for_cudnn\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/tmp/tmp.9fhkOexzFp/cmake-build-debug/dlib_build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/tmp/tmp.9fhkOexzFp/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/tmp/tmp.9fhkOexzFp/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/tmp/tmp.9fhkOexzFp/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/tmp/tmp.9fhkOexzFp/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dlib">
+         <Option output="/tmp/tmp.9fhkOexzFp/cmake-build-debug/dlib_build/libdlib.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/tmp/tmp.9fhkOexzFp/cmake-build-debug/dlib_build" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/tmp/tmp.9fhkOexzFp/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 dlib" />
+            <CompileFile command="/usr/bin/make -f &quot;/tmp/tmp.9fhkOexzFp/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/tmp/tmp.9fhkOexzFp/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/tmp/tmp.9fhkOexzFp/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dlib/fast">
+         <Option output="/tmp/tmp.9fhkOexzFp/cmake-build-debug/dlib_build/libdlib.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/tmp/tmp.9fhkOexzFp/cmake-build-debug/dlib_build" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/tmp/tmp.9fhkOexzFp/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 dlib/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/tmp/tmp.9fhkOexzFp/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/tmp/tmp.9fhkOexzFp/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/tmp/tmp.9fhkOexzFp/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/base64/base64_kernel_1.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/base64/base64_kernel_1.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/bigint/bigint_kernel_1.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/bigint/bigint_kernel_1.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/bigint/bigint_kernel_2.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/bigint/bigint_kernel_2.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/bit_stream/bit_stream_kernel_1.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/bit_stream/bit_stream_kernel_1.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/bsp/bsp.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/bsp/bsp.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/cuda/cpu_dlib.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/cuda/cpu_dlib.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/cuda/cublas_dlibapi.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/cuda/cublas_dlibapi.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/cuda/cuda_data_ptr.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/cuda/cuda_data_ptr.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/cuda/cuda_dlib.cu">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/cuda/cudnn_dlibapi.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/cuda/cudnn_dlibapi.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/cuda/curand_dlibapi.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/cuda/curand_dlibapi.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/cuda/cusolver_dlibapi.cu">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/cuda/gpu_data.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/cuda/gpu_data.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/cuda/tensor_tools.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/cuda/tensor_tools.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/data_io/image_dataset_metadata.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/data_io/image_dataset_metadata.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/data_io/mnist.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/data_io/mnist.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/dir_nav/dir_nav_extensions.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/dir_nav/dir_nav_extensions.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/dir_nav/dir_nav_kernel_1.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/dir_nav/dir_nav_kernel_1.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/dir_nav/dir_nav_kernel_2.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/dir_nav/dir_nav_kernel_2.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/entropy_decoder/entropy_decoder_kernel_1.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/entropy_decoder/entropy_decoder_kernel_2.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/entropy_encoder/entropy_encoder_kernel_1.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/entropy_encoder/entropy_encoder_kernel_2.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/filtering/kalman_filter.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/filtering/kalman_filter.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/global_optimization/global_function_search.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/global_optimization/global_function_search.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/gui_core/gui_core_kernel_1.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/gui_core/gui_core_kernel_1.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/gui_core/gui_core_kernel_2.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/gui_core/gui_core_kernel_2.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/gui_widgets/base_widgets.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/gui_widgets/base_widgets.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/gui_widgets/canvas_drawing.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/gui_widgets/canvas_drawing.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/gui_widgets/drawable.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/gui_widgets/drawable.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/gui_widgets/fonts.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/gui_widgets/fonts.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/gui_widgets/style.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/gui_widgets/style.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/gui_widgets/widgets.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/gui_widgets/widgets.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/image_loader/jpeg_loader.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/image_loader/jpeg_loader.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/image_loader/png_loader.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/image_loader/png_loader.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/image_saver/save_jpeg.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/image_saver/save_jpeg.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/image_saver/save_png.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/image_saver/save_png.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/linker/linker_kernel_1.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/linker/linker_kernel_1.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/logger/extra_logger_headers.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/logger/extra_logger_headers.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/logger/logger_config_file.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/logger/logger_config_file.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/logger/logger_kernel_1.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/logger/logger_kernel_1.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/md5/md5_kernel_1.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/md5/md5_kernel_1.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/misc_api/misc_api_kernel_1.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/misc_api/misc_api_kernel_1.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/misc_api/misc_api_kernel_2.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/misc_api/misc_api_kernel_2.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/server/server_http.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/server/server_http.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/server/server_iostream.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/server/server_iostream.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/server/server_kernel.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/server/server_kernel.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/sockets/sockets_extensions.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/sockets/sockets_extensions.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/sockets/sockets_kernel_1.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/sockets/sockets_kernel_1.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/sockets/sockets_kernel_2.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/sockets/sockets_kernel_2.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/sockstreambuf/sockstreambuf.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/sockstreambuf/sockstreambuf.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/sockstreambuf/sockstreambuf_unbuffered.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/stack_trace.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/stack_trace.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/test_for_odr_violations.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/test_for_odr_violations.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/threads/async.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/threads/async.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/threads/multithreaded_object_extension.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/threads/multithreaded_object_extension.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/threads/thread_pool_extension.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/threads/thread_pool_extension.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/threads/threaded_object_extension.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/threads/threaded_object_extension.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/threads/threads_kernel_1.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/threads/threads_kernel_1.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/threads/threads_kernel_2.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/threads/threads_kernel_2.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/threads/threads_kernel_shared.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/threads/threads_kernel_shared.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/timer/timer.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/timer/timer.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/tokenizer/tokenizer_kernel_1.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/tokenizer/tokenizer_kernel_1.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/unicode/unicode.cpp">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/home/wangkun/sources/dlib-19.12/dlib/unicode/unicode.h">
+         <Option target="dlib"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.9fhkOexzFp/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/tmp/tmp.9fhkOexzFp/../../home/wangkun/sources/dlib-19.12/dlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\home\wangkun\sources\dlib-19.12\dlib\" />
+      </Unit>
+      <Unit filename="/tmp/tmp.9fhkOexzFp/../../home/wangkun/sources/dlib-19.12/dlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\home\wangkun\sources\dlib-19.12\dlib\" />
+      </Unit>
+      <Unit filename="/tmp/tmp.9fhkOexzFp/../../home/wangkun/sources/dlib-19.12/dlib/cmake_utils/set_compiler_specific_options.cmake">
+          <Option virtualFolder="CMake Files\..\..\home\wangkun\sources\dlib-19.12\dlib\cmake_utils\" />
+      </Unit>
+      <Unit filename="/tmp/tmp.9fhkOexzFp/../../home/wangkun/sources/dlib-19.12/dlib/cmake_utils/release_build_by_default">
+          <Option virtualFolder="CMake Files\..\..\home\wangkun\sources\dlib-19.12\dlib\cmake_utils\" />
+      </Unit>
+      <Unit filename="/tmp/tmp.9fhkOexzFp/../../home/wangkun/sources/dlib-19.12/dlib/cmake_utils/use_cpp_11.cmake">
+          <Option virtualFolder="CMake Files\..\..\home\wangkun\sources\dlib-19.12\dlib\cmake_utils\" />
+      </Unit>
+      <Unit filename="/tmp/tmp.9fhkOexzFp/../../home/wangkun/sources/dlib-19.12/dlib/cmake_utils/find_blas.cmake">
+          <Option virtualFolder="CMake Files\..\..\home\wangkun\sources\dlib-19.12\dlib\cmake_utils\" />
+      </Unit>
+      <Unit filename="/tmp/tmp.9fhkOexzFp/../../home/wangkun/sources/dlib-19.12/dlib/cmake_utils/set_compiler_specific_options.cmake">
+          <Option virtualFolder="CMake Files\..\..\home\wangkun\sources\dlib-19.12\dlib\cmake_utils\" />
+      </Unit>
+      <Unit filename="/tmp/tmp.9fhkOexzFp/../../home/wangkun/sources/dlib-19.12/dlib/cmake_utils/release_build_by_default">
+          <Option virtualFolder="CMake Files\..\..\home\wangkun\sources\dlib-19.12\dlib\cmake_utils\" />
+      </Unit>
+      <Unit filename="/tmp/tmp.9fhkOexzFp/../../home/wangkun/sources/dlib-19.12/dlib/cmake_utils/use_cpp_11.cmake">
+          <Option virtualFolder="CMake Files\..\..\home\wangkun\sources\dlib-19.12\dlib\cmake_utils\" />
+      </Unit>
+      <Unit filename="/tmp/tmp.9fhkOexzFp/../../home/wangkun/sources/dlib-19.12/dlib/cmake_utils/find_blas.cmake">
+          <Option virtualFolder="CMake Files\..\..\home\wangkun\sources\dlib-19.12\dlib\cmake_utils\" />
+      </Unit>
+      <Unit filename="/tmp/tmp.9fhkOexzFp/../../home/wangkun/sources/dlib-19.12/dlib/cmake_utils/test_for_cudnn/find_cudnn.txt">
+          <Option virtualFolder="CMake Files\..\..\home\wangkun\sources\dlib-19.12\dlib\cmake_utils\test_for_cudnn\" />
+      </Unit>
+      <Unit filename="/tmp/tmp.9fhkOexzFp/../../home/wangkun/sources/dlib-19.12/dlib/cmake_utils/test_for_cudnn/find_cudnn.txt">
+          <Option virtualFolder="CMake Files\..\..\home\wangkun\sources\dlib-19.12\dlib\cmake_utils\test_for_cudnn\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
